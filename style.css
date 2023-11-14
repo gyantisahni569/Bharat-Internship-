@@ -1,0 +1,335 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+#navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 0;
+	padding: 3% 7% ;
+	z-index: 2;
+}
+.navbar-logo-container{
+	width: 160px;
+	height: 40px;
+}
+.navbar-logo{
+	width: 100%;
+	height: 100%;
+}
+.navbar-items{
+	display: flex;
+}
+.navbar-item-dropdown{
+	border: 0.5px solid white;
+	border-radius: 5px;
+	padding: 0.4rem 1rem;
+
+
+}
+
+.language-select{
+	background-color: black;
+	color: white;
+	padding: 0 0.4rem;
+	border: none;
+	font-weight: bold;
+}
+.signin-button{
+	padding: 0.5rem 0.9rem;
+	background-color: rgb(229, 9, 20);
+	font-size:16px ;
+	border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-left: 20px;
+}
+
+/*------------------ hero section ------------------------*/
+
+.hero-section-image-container{
+	width: 100%;
+	height: 100vh;
+	
+}
+.hero-section-image{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	
+}
+.hero-section-background-gradient{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.8) 0,
+            rgba(0, 0, 0, 0.5) 60%,
+            rgba(0, 0, 0, 0.8) 100%);
+}
+
+.hero-content{
+	 position: absolute;
+       top: 30%;
+       left: 16%;
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 400%;  
+}
+.hero-content h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.hero-content p{
+	font-size: 20px;
+}
+
+.email-input{
+	width: 32%;
+	height:54px;
+	border: 1px solid gray;
+    background: transparent;
+    background-color: rgba(36, 36, 36, 0.8);
+    padding: 1.5rem;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+
+}
+.get-started-button{
+	width: 18%;
+	height: 55px;
+	padding: 0.5rem 1rem;
+	background-color: rgb(229, 9, 20);
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-right: 10px;
+
+}
+
+/*------------------------- feature -------------------------*/
+.feature-outer-container {
+    border-top: 8px solid #222;
+    padding: 3rem 2rem;
+}
+.feature-outer-container{
+	width: 100%;
+}
+.feature-inner-container{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+.feature-description-container{
+	flex-basis: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.feature-image-container{
+	flex-basis: 50%;
+
+}
+.feature-image-container .feature-image{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+.feature-description h1{
+	font-size: 50px;
+	font-weight: 600;
+}
+.feature-description p{
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 20px;
+	line-height: 150%;
+}
+/---------------------------FAQ section-------------------------/
+.outer-FAQ{
+	width: 100%;
+	border-top: 8px solid #222;
+}
+.inner-FAQ{
+	width: 80%;
+	margin: 0 auto;
+	padding: 3rem 0;
+}
+.FAQ-list-container{
+	width: 100%;
+}
+.FAQ-list-title h1{
+	text-align: center;
+	margin: 30px 0;
+	font-size: 50px;
+	font-weight: bold;
+}
+.FAQ-container button{
+	width: 100%;
+	height: 80px;
+	margin-top: 10px;
+	background-color: #221F1F;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+    padding: 1.6rem 4rem;
+    font-size: 22px;
+    border: none;
+}
+.FAQ-container button i{
+	font-size: 40px;
+}
+.FAQ-container .FAQ-answer{
+	display: none;
+	padding: 20px;
+	border: 1px solid white;
+	background-color: #333333;
+	font-size: 18px;
+}
+.FAQ-description{
+	text-align: center;
+	margin: 40px 0;
+}
+
+.FAQ-description p{
+	margin-bottom: 20px;
+	font-size: 20px;
+	
+}
+/------------------------footer section ------------------------/
+
+.footer-outer{
+	width: 100%;
+	border-top: 8px solid #222;
+
+}
+.footer-inner{
+	width: 80%;
+	margin: 0 auto;
+	padding: 3rem 0;
+	color: #F5F5F1;
+	
+}
+.footer-list{
+	display: flex;
+	justify-content: space-around;
+}
+.footer-list li{
+	list-style: none;
+	line-height: 35px;
+
+}
+.footer-list a{
+	color: #F5F5F1;
+}
+
+.footer-inner p{
+ font-size: 18px;
+ margin-left: 80px;
+ padding: 1rem 0;
+}
+.bottom-converter{
+	display: inline;
+    margin-left: 80px;
+   margin-top: 20px;
+}
+.netfix-india{
+	margin-left: 80px;
+	margin-top: 20px;
+
+}
+
+
+
+/---------------------- for small screen -------------------------/
+@media only screen and (max-width : 600px){
+	.hero-content{
+	 position: absolute;
+       top: 30%;
+       left: 6%;
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 300%;  
+}
+.hero-content h1{
+	font-size: 28px;
+	font-weight: bold;
+}
+.hero-content p{
+	font-size: 16px;
+}
+
+.email-input{
+	width: 25%;
+	height:40px;
+    font-size: 16px;
+   
+
+}
+.get-started-button{
+	width: 24%;
+	height: 45px;
+    padding: 0.9rem 0.5rem;
+	font-size: 14px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+
+.feature-inner-container{
+	flex-direction: column;
+	display: flex;
+	width: 80%;
+	
+}
+.feature-image-container .feature-image{
+
+	margin: 30px auto;
+}
+
+
+.feature-description h1{
+	font-size: 40px;	
+}
+.feature-description p{
+	font-size: 18px;	
+}
+
+
+.footer-list{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-row-gap: 50px;
+	
+}
+
+
+
+.footer-inner p{
+ font-size: 18px;
+ margin-left: 30px;
+ padding: 1rem 0;
+}
+
+}
